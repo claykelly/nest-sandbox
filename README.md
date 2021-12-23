@@ -29,10 +29,21 @@
 ## Installation
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ## Running the app
+
+To change the service you want to run go to ./src/main.ts and update the callService funciton to call the service you want to use.
+
+```
+const callService = async (app: INestApplicationContext) => {
+  const appService = app.get(AppService);
+  const fptsService = app.get(FptsService);
+  // change this return to use the service you want
+  return await fptsService.test();
+}
+```
 
 ```bash
 # development
