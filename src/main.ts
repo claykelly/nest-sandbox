@@ -3,11 +3,13 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { AppService } from './app.service';
 import { FptsService } from './fpts-examples/fpts.service';
+import { MotorService } from './motor-tests/motor.service';
 
 const callService = async (app: INestApplicationContext) => {
   const appService = app.get(AppService);
   const fptsService = app.get(FptsService);
-  return await fptsService.test();
+  const motorService = app.get(MotorService);
+  return await motorService.test();
 }
 
 async function bootstrap() {

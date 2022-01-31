@@ -1,0 +1,33 @@
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_ComponentLocations_CompLocApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_ComponentLocations_CompLocApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_DiagnosticTroubleCodes_DTCApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_DiagnosticTroubleCodes_DTCApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_EstimatedWorkTimes_EstimatedWorkTimeApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_EstimatedWorkTimes_EstimatedWorkTimeApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_Fluids_FluidApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_Fluids_FluidApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_Parts_PartApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_Parts_PartApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_PartVectorIllustrations_PartVectorApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_PartVectorIllustrations_PartVectorApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_ServiceProcedures_ServiceProcedureApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_ServiceProcedures_ServiceProcedureApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_Specifications_SpecificationApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_Specifications_SpecificationApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_TechnicalServiceBulletins_TSBApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_TechnicalServiceBulletins_TSBApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_VehicleImages_VehicleImageApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_VehicleImages_VehicleImageApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_WiringDiagrams_WiringApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_WiringDiagrams_WiringApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer } from './MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer';
+
+export type MOTOR_DaaS_WebServices_DTO_Information_Content_InformationContentGroup = {
+    Attributes?: MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer;
+    ComponentLocations?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_ComponentLocations_CompLocApp>;
+    DiagnosticTroubleCodes?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_DiagnosticTroubleCodes_DTCApp>;
+    EstimatedWorkTimes?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_EstimatedWorkTimes_EstimatedWorkTimeApp>;
+    Fluids?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_Fluids_FluidApp>;
+    MaintenanceSchedules?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp>;
+    Parts?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_Parts_PartApp>;
+    PartVectorIllustrations?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_PartVectorIllustrations_PartVectorApp>;
+    ServiceProcedures?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_ServiceProcedures_ServiceProcedureApp>;
+    Specifications?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_Specifications_SpecificationApp>;
+    TechnicalServiceBulletins?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_TechnicalServiceBulletins_TSBApp>;
+    VehicleImages?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_VehicleImages_VehicleImageApp>;
+    WiringDiagrams?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_WiringDiagrams_WiringApp>;
+};

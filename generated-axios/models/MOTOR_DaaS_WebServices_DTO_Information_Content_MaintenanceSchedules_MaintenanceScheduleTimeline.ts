@@ -1,0 +1,15 @@
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp } from './MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleInterval } from './MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleInterval';
+import type { MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleSupplementaryItem } from './MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleSupplementaryItem';
+import type { MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer } from './MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer';
+
+export type MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleTimeline = {
+    Attributes?: MOTOR_DaaS_WebServices_DTO_Information_VehicleInfo_Attributes_AttributeContainer;
+    Intervals?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleInterval>;
+    Applications?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleApp>;
+    SupplementaryItems?: Array<MOTOR_DaaS_WebServices_DTO_Information_Content_MaintenanceSchedules_MaintenanceScheduleSupplementaryItem>;
+};
